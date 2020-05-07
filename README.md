@@ -37,7 +37,7 @@ On my website, there are a total of 6 features. Below I will discuss each briefl
 1. Personal Trainers: In this section we highlight the members of our team, and a brief background, this allows users to make a more
    informed decision, as to who to go with for personal training.
 1. Testimonials: Allows potential clients to read how other clients feel about the service the company has offered. Thus giving legitimacy to the business and credibility.
-1. Contact Form: Allows potential clients to start consultation, the do this by filling out the form and submitting it, alongside their name and email.
+1. Contact Form: Allows potential clients to start consultation, they do this by filling out the form and submitting it, alongside their name and email.
 1. Footer: This contains our social media links in the form of icons. Which allows users to check out our social media pages, and contact us.
 
 

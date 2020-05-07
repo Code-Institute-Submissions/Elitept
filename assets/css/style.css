@@ -35,4 +35,48 @@
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-/* -------------------End of Navbar------------------------------*/
+
+.mr-auto, .mx-auto {
+    margin-left: 300px;
+}
+
+
+/* -------------------Landing Page (Used and modified code from Whiskey Drop mini project)------------------------------*/
+
+.landing-page {
+height: 90vh;
+
+background: url("../images/gym3.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
