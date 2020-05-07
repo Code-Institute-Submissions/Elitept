@@ -21,7 +21,8 @@ This will provide variety, which will ultimately lead to more clients and thus h
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
-Here is a link to the wireframes which I have created as part of my project.
+I have created a folder for the wireframes, there is a PDF link which you can open and see it. I have
+created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view.
 
 ## Features
 
@@ -31,7 +32,7 @@ On my website, there are a total of 6 features. Below I will discuss each briefl
 
 1. Navigation bar: This allows user to easily navigate the page and get to whichever section they want. To do this, they simplify
    click on the relevant section on the navigation bar.
-1. Services: This allows potential clients to see what services we offer, which will help them decide which one to pick. By offering these, 
+1. Programs: This allows potential clients to see what services we offer, which will help them decide which one to pick. By offering these, 
    it highlights our varied services.
 1. Personal Trainers: In this section we highlight the members of our team, and a brief background, this allows users to make a more
    informed decision, as to who to go with for personal training.
@@ -42,6 +43,9 @@ On my website, there are a total of 6 features. Below I will discuss each briefl
 
 ### Future Features
 
-In future I would make a few additions. Firstly, I would have a drop down section where you can click on each personal trainer, from there you would be 
-able to see videos of them training clients and a short clip where they introduce themselves. Secondly, I would like to add more features to the site, for example the 
-addition of a nutrition section.
+In future I would make a few additions. 
+
+- I would have a drop down section where you can click on each personal trainer, from there you would be 
+able to see videos of them training clients and a short clip where they introduce themselves. 
+- I would also like to add more features to the site, for example the 
+addition of a nutrition section. Where we can promote programs that include diets and foods to eat etc.
