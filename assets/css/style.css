@@ -30,6 +30,7 @@
 
 .navbar-brand {
     font-weight: bold;
+    font-size: x-large;
 }
 
 .navbar .navbar-nav a {
@@ -37,7 +38,7 @@
 }
 
 .mr-auto, .mx-auto {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 
