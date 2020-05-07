@@ -79,5 +79,39 @@ background: url("../images/gym3.jpg") no-repeat bottom right fixed;
     
 }
 
+/*--------------------Programs----------------------*/
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+}
 
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-bottom: 5px;
+}
 
+.brand {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 90vh;
+    
+}
+
+.brand h2 {
+    color: #3206f7;
+    letter-spacing: 6px;
+
+}
