@@ -79,7 +79,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
 .jumbotron-header {
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 30px;
     padding-top: 100px;
 }
@@ -135,6 +135,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
     background: url("../images/landing.jpg") no-repeat bottom right fixed; 
 }
 
+
 .break-header2 {
     color: white;
     font-weight: bold;
@@ -142,4 +143,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
     padding-bottom:40px; 
 }
 
-/*-------------------------Trainers------------------------*/
+.landing-page3 {
+    background: url("../images/landing2.jpg") no-repeat bottom right fixed; 
+}
+
