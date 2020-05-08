@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
 
 * {
+   font-family: 'Cairo', sans-serif;
    text-align: center;
    text-decoration: none;
 
@@ -95,7 +96,6 @@ background: url("../images/gym3.jpg") no-repeat bottom right fixed;
 /*--------------------Programs----------------------*/
 .card {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -119,7 +119,7 @@ background: url("../images/gym3.jpg") no-repeat bottom right fixed;
     background-color: white;
     margin-bottom: 20px;
     text-align: center;
-    height: 90vh;
+    
     
 }
 
@@ -128,3 +128,18 @@ background: url("../images/gym3.jpg") no-repeat bottom right fixed;
     letter-spacing: 6px;
 
 }
+
+/*---------------------Break------------------*/
+
+.landing-page2 {
+    background: url("../images/landing.jpg") no-repeat bottom right fixed; 
+}
+
+.break-header {
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom:30px; 
+}
+
+/*-------------------------Trainers------------------------*/

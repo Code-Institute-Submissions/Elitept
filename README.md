@@ -49,3 +49,4 @@ In future I would make a few additions.
 able to see videos of them training clients and a short clip where they introduce themselves. 
 - I would also like to add more features to the site, for example the 
 addition of a nutrition section. Where we can promote programs that include diets and foods to eat etc.
+- In future, the addition of a log in section for our members would be great.
