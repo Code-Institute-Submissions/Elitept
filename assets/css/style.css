@@ -189,14 +189,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
 }
 
 /*------------------------Contact Us--------------------------*/
-.text-uppercase2 {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: white;
-    
-}
+
 
 .text2 {
     color: white;
@@ -206,4 +199,8 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
     color: #fff;
     background-color: #3206f7;
     border-color: #3206f7;
+}
+
+.brand2 {
+    color: #3206f7;
 }
