@@ -105,25 +105,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
     font-size: 20px;
 }
 
-.btn-success {
-    color: #fff;
-    background-color: #3206f7;
-    border-color: #3206f7;
-  
-}
 
-.btn-success.focus, .btn-success:focus {
-    color: #fff;
-    background-color: #3206f7;
-    border-color: #3206f7;
-    box-shadow: 0 0 0 0.2rem #3206f7;
-}
-
-.btn-success:hover {
-    color: #fff;
-    background-color: #7458f0;
-    border-color: #7458f0;
-}
 /*--------------------Programs ( Used and modified from bootstrap)----------------------*/
 .card {
     position: relative;

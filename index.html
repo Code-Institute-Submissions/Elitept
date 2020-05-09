@@ -33,10 +33,10 @@
 
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav mr-auto mycolor">
-						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="/about">Programs</a></li>
-						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="/about">Trainers</a></li>
-						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="/about">Testimonials</a></li>
-						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="/about">Contact Us</a></li>
+						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="#programs">Programs</a></li>
+						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="#trainers">Trainers</a></li>
+						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="#testimonials">Testimonials</a></li>
+						<li class="nav-item mr-2"><a class="nav-link hvr-push" href="#contact">Contact Us</a></li>
 
 
 					</ul>
@@ -55,7 +55,7 @@
 			<div class="col-12">
 				<section class="callout jumbotron text-center header">
 					<h1 class="jumbotron-header"> Welcome to ElitePT </h1>
-                        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
+                        
 				</section>
 			</div>
 		</div>
@@ -68,12 +68,12 @@
 		<div class="row no-gutter mytext">
 			<div class="col-12">
 
-				<h2 class="text-uppercase">PROGRAMS FOR YOU</h2>
+				<h2 id="programs" class="text-uppercase">PROGRAMS FOR YOU</h2>
                 <hr>
 				<br>
 				<p>The road begins here. At ElitePT we have over <b>20 YEARS EXPERIENCE</b> In training clients just
 					like <b>YOU</b>.</p>
-				<p>Our trainers offer coaching which are tailored to <b>your</b> needs.</p> We specialise in all of the
+				<p>Our trainers offer coaching which are tailored to <b>YOUR</b> needs.</p> We specialise in all of the
 				below.
 			</div>
 		</div>
@@ -140,7 +140,7 @@
 		<div class="row no-gutter mytext">
 			<div class="col-12">
 
-				<h2 class="text-uppercase">MEET OUR TEAM</h2>
+				<h2 id="trainers" class="text-uppercase">MEET OUR TEAM</h2>
 <hr>
 
 				<br>
@@ -211,7 +211,7 @@
 	<div class="container brand">
 
 		<div class="row no-gutter mytext">
-			<div class="col-12">
+			<div id="testimonials" class="col-12">
 
 				<h2 class="text-uppercase">Testimonials</h2>
                 <hr>
@@ -257,7 +257,7 @@
 		<div class="row no-gutter">
 			<div class="col-12">
 
-				<h2 class="text-uppercase2">CONTACT US</h2>
+				<h2 id="contact" class="text-uppercase2">CONTACT US</h2>
                 <hr>
 				
 			</div>
@@ -266,7 +266,7 @@
 
         <div class="row no-gutter">
             <div class="col-sm-12 col-md-6">
-            <h5 class="text2">Get in touch</h5>
+            <h4 class="text2">Get in touch</h4>
             <p class="text2">We like to start out everyone with a questionnaire to find out a little bit about you, so once you submit your email, you will be sent one.</p> 
             <p class="text2">By answering the questions as accurately as possible, we can match you with the best trainer for you!</p>
             <br>
@@ -298,7 +298,7 @@
             
         <div class="mb-3">
             <label for="validationTextarea">Tell us more</label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="What are your goals?" required></textarea>
+            <textarea class="form-control" id="validationTextarea" placeholder="What are your goals?" required></textarea>
             
         </div>
             <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
@@ -311,51 +311,6 @@
         
         </div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-<!--------------------------------Modal (Used and modified from Bootstrap and Whiskey Drop mini project)------------------------------------------>
-
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Sign Up!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="Password">Password</label>
-    <input type="password" class="form-control" id="Password" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="repeatPassword">Repeat Password</label>
-    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-  </div>
-  <button type="submit" class="btn btn-success">Submit</button>
-</form>
-
-      </div>
-    
-    </div>
-  </div>
-</div>
-
 
 
 
