@@ -63,11 +63,10 @@ addition of a nutrition section. Where we can promote programs that include diet
 ## Technologies Used
 Here is a list of all of the languages, frameworks, libraries, and any other tools that I have used to construct my project. 
 
-For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-1. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>:
+1. HTML and CSS: For these two I could not find the official websites, which is why I have not provided a link. I used HTML for the structure of the page and CSS to style the page.
 
-1. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap Javascript Plug in</a>:
+1. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap Javascript</a>:
 The project uses Bootstrap JS scripts to be able to use the dropdown menu on the navigation bar. The drop down menu is active on the smaller screens.
 
 1. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>:
@@ -124,17 +123,17 @@ I have also left a comment on my html and css, on top of sections which had code
 
 I will list the credits below too:
 
-1. Navigation Bar
+#### Navigation Bar
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-1. Landing Page
+#### Landing Page
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-1. Programs and Trainers
+#### Programs and Trainers
 - <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-1. Testimonials
+#### Testimonials
 - <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap</a>: Used code for the purposes of the layout.
-1. Contact Page
+#### Contact Page
 - <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
 
 ### Content 
@@ -142,22 +141,22 @@ I will list the credits below too:
 
 
 ### Media
-The photos used in this site were obtained from the following sources. All photos are copyright free.
+The photos used in this site were obtained from the following sources. All photos are copyright free, and the links to the official websites can be found below.
 
 - <a href="https://pixabay.com/" target="_blank">Pixabay</a>
 - <a href="https://www.pexels.com/" target="_blank">Pexels</a>
-- <a href="https://www.shutterstock.com/home" target="_blank">Shutterstock</a>: Signed up for the 10 free photos.
+- <a href="https://www.shutterstock.com/home" target="_blank">Shutterstock</a>
 
 
 ### Acknowledgements
 I received inspiration for this project from looking at a few different websites, which I have listed below:
 
-- <a href="https://www.opexgatwick.co.uk/" target="_blank">Open Gatwick Gym</a>
+- <a href="https://www.opexgatwick.co.uk/" target="_blank">Open Gatwick Gym</a>:
 I really liked the structure of the page, even though I did not use any of the code.
 
-- <a href="https://www.puregym.com/" target="_blank">Pure Gym</a>
+- <a href="https://www.puregym.com/" target="_blank">Pure Gym</a>:
 I got the idea of showing the personal trainers and their accreditation from this website.
 
-- <a href="https://www.villagegym.co.uk/" target="_blank">Village Gym</a>
+- <a href="https://www.villagegym.co.uk/" target="_blank">Village Gym</a>:
 I really liked their colour scheme, especially the contact page and footer. 
 
