@@ -262,3 +262,9 @@ h6 {
 	padding: 6%;
 	color: #FF4400;
 }
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #F49C01;
+    border-color: #F49C01;
+}
