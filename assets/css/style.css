@@ -65,9 +65,9 @@
 /* -------------------Landing Page (Used and modified code from Whiskey Drop mini project)------------------------------*/
 
 .landing-page {
-height: 90vh;
+height: 95vh;
 
-background: url("../images/pic1.jpg") no-repeat bottom right fixed; 
+background: url("../images/gym3.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -85,7 +85,7 @@ background: url("../images/pic1.jpg") no-repeat bottom right fixed;
 }
 
 .jumbotron-header {
-    color: #fff;
+    color: #FF4400;
     font-weight: bold;
     font-size: 45px;
     margin-bottom: 30px;
