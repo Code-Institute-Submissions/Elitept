@@ -1,266 +1,253 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
-
-* {
-   font-family: 'Cairo', sans-serif;
-   text-align: center;
-   text-decoration: none;
-
+.body {
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+	text-decoration: none;
 }
 
-/* -------------------Navbar (Used and modified code from Whiskey Drop mini project)------------------------------*/
+
+/*--Navbar(Used and modified code from Code Institute Whiskey Drop mini project)--*/
 
 .menubar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 1;
 }
 
-
-
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: #000;
-    
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	background-color: #000;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+	color: #fff;
 }
-
-
 
 .navbar .navbar-toggler {
-    border: 0;
+	border: 0;
 }
 
-.navbar-brand  {
-    font-weight: bold;
-    font-size: x-large;
-     
+.navbar-brand {
+	font-weight: bold;
+	font-size: x-large;
 }
 
 .navbar .navbar-nav a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-.mr-auto, .mx-auto {
-    margin-left: 200px;
+.mr-auto,
+.mx-auto {
+	margin-left: 200px;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #FF4400;
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #FF4400;
 }
 
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-    color: #FF4400;
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+	color: #FF4400;
 }
 
 
-
-/* -------------------Landing Page (Used and modified code from Whiskey Drop mini project)------------------------------*/
+/*--Landing Page(Used and modified code from Code Institute Whiskey Drop mini project)--*/
 
 .landing-page {
-height: 95vh;
-
-background: url("../images/gym3.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 20px;
+	height: 95vh;
+	background: url("../images/gym3.jpg") no-repeat bottom right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 20px;
 }
 
 .jumbotron {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .jumbotron-header {
-    color: #FF4400;
-    font-weight: bold;
-    font-size: 45px;
-    margin-bottom: 30px;
-    padding-top: 100px;
+	color: #FF4400;
+	font-weight: bold;
+	font-size: 45px;
+	margin-bottom: 30px;
+	padding-top: 100px;
 }
 
-
 .text-uppercase {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 .mytext {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 
-/*--------------------Programs ( Used and modified from bootstrap)----------------------*/
+/*--Programs(Used and modified from Bootstrap)--*/
+
 .card {
-    position: relative;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: rgb(241, 241, 241);
-    padding: 0px 0px 10px 0px;
-    background-clip: border-box;
-    border: 1px solid #fff;
-    border-radius: .25rem;
-    margin-bottom: 20px;
+	position: relative;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: rgb(241, 241, 241);
+	padding: 0px 0px 10px 0px;
+	background-clip: border-box;
+	border: 1px solid #fff;
+	border-radius: .25rem;
+	margin-bottom: 20px;
 }
 
 .myprograms {
-    background-color: white;
+	background-color: white;
 }
 
 .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-    margin-bottom: 5px;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+	margin-bottom: 5px;
 }
 
-.card-img, .card-img-top {
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-   
+.card-img,
+.card-img-top {
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
 }
 
 .brand {
-    background-color: white;
-   
-    text-align: center;
-    
-    
+	background-color: white;
+	text-align: center;
 }
 
 .brand h2 {
-    color: #FF4400;
-    letter-spacing: 6px;
-
-}
-
-/*---------------------Break------------------*/
-
-.landing-page2 {
-    background: url("../images/landing.jpg") no-repeat bottom right fixed; 
+	color: #FF4400;
+	letter-spacing: 6px;
 }
 
 
-.break-header2 {
-    color: white;
-    font-weight: bold;
-    padding-top: 40px;
-    padding-bottom:40px; 
+/*--Break--*/
+
+.landing-pagetwo {
+	background: url("../images/landing.jpg") no-repeat bottom right fixed;
 }
 
-.landing-page3 {
-    background: url("../images/landing2.jpg") no-repeat bottom right fixed; 
+.break-headertwo {
+	color: white;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.landing-pagethree {
+	background: url("../images/landing2.jpg") no-repeat bottom right fixed;
 }
 
 
-
-
-/*-----------------Testimonials------------------*/
+/*--Testimonials--*/
 
 .col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 40px;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
 }
 
-.h6, h6 {
-    font-size: 1rem;
-    margin-bottom: 30px;
+.h6,
+h6 {
+	font-size: 1rem;
+	margin-bottom: 30px;
 }
 
-/*------------------------Contact Us--------------------------*/
-.landing-page4 {
-    
-    background-color: #000; 
+
+/*--Contact Us--*/
+
+.contactpage {
+	background-color: #000;
 }
 
-.text2 {
-    color: white;
+.footertext {
+	color: white;
 }
 
 .mysize {
-    font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 .btn-primary {
-    color: #000;
-    background-color: #FF4400;
-    border-color: #FF4400;
+	color: #000;
+	background-color: #FF4400;
+	border-color: #FF4400;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
 }
 
-.brand2 {
-    color: #FF4400;
+.brandtwo {
+	color: #FF4400;
 }
 
 .mycolor {
-    color: #FF4400;
+	color: #FF4400;
 }
 
 .form-control {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 2px solid #FF4400;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-/*----------------Footer (Used and modified code from Code Institute Love Running mini project)--------------------------*/
-
-.brand3 {
-    letter-spacing: 6px;
-    color: #FF4400;
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 2px solid #FF4400;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 
-.social-media{
-    text-align: center;
-   padding-bottom: 5px;
+/*--Footer (Used and modified code from Code Institute Love Running mini project)--*/
 
+.brandthree {
+	letter-spacing: 6px;
+	color: #FF4400;
+}
+
+.social-media {
+	text-align: center;
+	padding-bottom: 5px;
 }
 
 .social-media li {
-    display:inline;
+	display: inline;
 }
 
 .social-media i {
-    font-size: 161%;
-    margin: 2%;
-    padding: 6%;
-    color: #FF4400;
+	font-size: 161%;
+	margin: 2%;
+	padding: 6%;
+	color: #FF4400;
 }

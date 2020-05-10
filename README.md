@@ -21,7 +21,7 @@ This will provide variety, which will ultimately lead to more clients and thus h
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
-Here is a link to my [wireframes] (https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf), there is a PDF link which you can open see it. I have
+Here is a link to my wireframes (https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf), there is a PDF link which you can open see it. I have
 created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view.
 
 
@@ -51,3 +51,4 @@ able to see videos of them training clients and a short clip where they introduc
 - I would also like to add more features to the site, for example the 
 addition of a nutrition section. Where we can promote programs that include diets and foods to eat etc.
 - In future, the addition of a log in section for our members would be great.
+- Update README.md to have hyperlinks, which do not work at the moment. ADD TO ISSUES ASWELL
