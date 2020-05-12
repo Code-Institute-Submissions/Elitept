@@ -27,7 +27,7 @@ This will provide variety, which will ultimately lead to more clients and thus h
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
-Here is the link to my <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
+Here is the link to my origial <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
 created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
 why they are different to my website, which I have modified over time.
 
@@ -107,14 +107,29 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy my project, I took the following steps.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+## How to deploy
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. To publish the project go on to the **Github Pages**.
+1. The go on to the **repository** in Github and select the **settings** tab.
+1. From there if you scroll down to the Github Pages section and in the source dropdown, select **none** for source and then select **"master branch"**.
+1. The page then reloaded. When you then scroll down to the GitHub Pages section again, you'll see a message that states that was **site is ready to be published**, with a link.
+1. If you open this link, it will take you to your site. 
+1. Should take no longer than a minute on average.
+1. However, if after 10 minutes, the link doesn't work, try to repeat the process again (selecting **none** for source, then selecting **master branch**).
+
+## Alternative
+
+1. Go to the **GitHub pages**.
+1. Go to the relevant **repository**.
+1. Select the '**Clone or Download**' dropdown.
+1. Then **Download Zip**.
+1. Once downloaded, if you click on it, you will be taken to the **downloaded folder**.
+1. When you open the folder, you will need to open the **index.html**.
+1. Now you should see your project on your desktop.
+
+
 
 ## Credits
 
