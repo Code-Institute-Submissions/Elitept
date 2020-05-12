@@ -7,6 +7,7 @@ personal trainers who all specialise in one particular field.
 
 As previously mentioned, this website's target market is anyone interested in fitness, from aspiring athletes to someone completely new to the gym.
 
+Click on this link to view the live site. <a href="https://ladev25.github.io/" target="_blank">Visit ElitePT</a>
 
 ## UX
  I aim to do this by creating a website which is both easy to navigate and user friendly. The site will have a minimalistic feel, in the sense that I won't bombard potential clients with too much information.
@@ -20,13 +21,19 @@ In regards to the design, I opted for a simple colour scheme. The main colours a
 For the typography, I opted to use Cairo and sans serif as a substitute if Cairo did not work.
 
 ### User Stories
-split into features
-- As a potential client, I want to be able to read testimonials from other clients which highlight their experiences, so that I can get more insight into how good the services are. 
+
+#### Potential Client
+- As a potential client, I want to be able easily go to a section and read testimonials from other clients which highlight their experiences, so that I can get more insight into how good the services are. 
   This will help me decide if I want to sign up with this company.
-- As a potential client  
-- As a potential client, I want to be able to see what services you offer and your credentials, so that I can see whether you offer what I am looking for.
+- As a potential client, I want to be able to see what programs you offer and the trainers credentials, so that I can see whether you offer what I am looking for.
+- As a potential client, I want to be able to contact you and start consultation, so that I can sign up for training.
+
+#### Business Owner
 - As the business owner, I want to add a section with a contact form, so that I can entice clients to contact us. This will lead to more potential sales, as a result more revenue.
-- As the business owner, I want to provide key information about our company in terms of history and reviews, so that I can show any potential client that we are a reputable business, with proven results.
+- As the business owner, I want the site to be easy to navigate and user friendly, this will lead to potential clients having a good user experience.
+- As the business owner, I want to provide key information about our company in terms of history and reviews (testimonials), so that I can show any potential client that we are a reputable business, with proven results.
+
+#### An ElitePT trainer
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
@@ -92,8 +99,6 @@ Google Fonts provided the font for my website. I used Cairo, with different font
 1. <a href="https://balsamiq.com/" target="_blank">Balmasiq</a>: Used to create my initial wireframes at the start of the project.
 
 
-
-
 ## Testing
 I have only conducted manual tests, having spoken to Tutor support, automated testing is not required for this milestone project. For each of the below tests, I have tested using **Chrome developer tools**, tested all
 screen sizes available and different devices by clicking **Inspect** elements. Including the following below;
@@ -107,6 +112,8 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 1. iPhone X
 1. iPad
 1. iPad Pro
+
+The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**.
 
 #### Hover effects
  If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
@@ -132,33 +139,32 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 One of the reasons I decided to use Bootstrap to create this project, was the mobile-first principle and especially the responsiveness. Using the layout meant that, as the screen size 
 increases and decreases, the page responds accordingly. Below is the effects of changing the screen size;
 
-1. Navigation Bar
+#### Navigation Bar
 - The navigation will collapse down to a dropdown menu when the screen is ≥576px.
 
-2. Programs and Trainers
+#### Programs and Trainers
 - The images and the adjoined text will be viewed differently depending on the screen size. So on screen sizes of 992px and above, all four images will be on one row.
 For screens where it is between 576px and below, one image will occupy one row. For screen sizes between 568px and 991px, it will show two images per row.
 
-3. Testimonials
+#### Testimonials
 - For this section, the testimonials will be one per row for screen sizes 767 and below. For screens 768px and above it will show two testimonials on each row.
 
-4. Contact Page
+#### Contact Page
 - Lastly, for the contact page, on screens 768px and above the contact form and the relevant text will be side by side (col-6 and col-6). But on smaller devices (767px and below) it will show the 
 relevant text above the contact form. As for the social media icons, on all screens sizes above 368px, the icons will appear on one line. But for screens widths 368px and below, the last icon goes on a separate row. 
 
 ### Issues
 - For the collapsed dropdown menu, when you click on an option, the drop down menu section does not go back to it's original state automatically. You have to click on
 the hamburger icon again for it collapse back.
+- If I try to push the navigation bar more centrally, the options on the drop down menu seem to be pushed out of the menu section. Which is why I have left it as originally from the bootstrap page.
 - When I click on the relevant feature, ideally I would want to be redirected to the header of the feature. However, on mine it takes you to the text on that section.
+- When you submit the contact form correctly, you don't get a message saying it was sent or anything. I have added this to future features I would like to add.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 To deploy my project, I took the following steps.
 
-## How to deploy
+### How to deploy
 
 1. To publish the project go on to the **Github Pages**.
 1. The go on to the **repository** in Github and select the **settings** tab.
@@ -168,7 +174,7 @@ To deploy my project, I took the following steps.
 1. Should take no longer than a minute on average.
 1. However, if after 10 minutes, the link doesn't work, try to repeat the process again (selecting **none** for source, then selecting **master branch**).
 
-## Alternative
+### Alternative
 
 1. Go to the **GitHub pages**.
 1. Go to the relevant **repository**.
@@ -186,25 +192,25 @@ I have also left a comment on my html and css, on top of sections which had code
 
 ### Code Credits
 
-I will list the code credits below too:
+I will list the code credits below:
 
-1. Navigation Bar
+#### Navigation Bar
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-2. Landing Page
+#### Landing Page
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-3.  Programs and Trainers
+####  Programs and Trainers
 - <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-4. Testimonials
+#### Testimonials
 - <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap</a>: Used code for the purposes of the layout.
-5. Contact Page
+#### Contact Page
 - <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
 
 
 ### Text Content 
 
-I have used content 
+I have used content from........
 
 
 ### Media
