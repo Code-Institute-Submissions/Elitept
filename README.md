@@ -96,7 +96,7 @@ This technically did not help me create the project, however I used this wesbite
 1. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>:
 Google Fonts provided the font for my website. I used Cairo, with different font weights.
 
-1. <a href="https://balsamiq.com/" target="_blank">Balmasiq</a>: Used to create my initial wireframes at the start of the project.
+1. <a href="https://balsamiq.com/" target="_blank">Balsamiq</a>: Used to create my initial wireframes at the start of the project.
 
 
 ## Testing
@@ -113,7 +113,9 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 1. iPad
 1. iPad Pro
 
-The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**.
+The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**. The site has also been tested on Chrome, Safari, Mozilla Firefox and Opera, and functions correctly on each.
+
+Additionally, having used <a href="https://validator.w3.org/" target="_blank">WC3</a>, my HTML code showed up as having no errors. Plus when I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">WC3 (CSS)</a>, it also showed that I had no errors in my CSS code.
 
 #### Hover effects
  If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
@@ -206,11 +208,6 @@ I will list the code credits below:
 - <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap</a>: Used code for the purposes of the layout.
 #### Contact Page
 - <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
-
-
-### Text Content 
-
-I have used content from........
 
 
 ### Media
