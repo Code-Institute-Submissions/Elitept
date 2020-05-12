@@ -18,9 +18,10 @@ The site will feature different personal trainers, with different skill sets.
 This will provide variety, which will ultimately lead to more clients and thus higher revenue.
 
 ### User Stories
-
+split into features
 - As a potential client, I want to be able to read testimonials from other clients which highlight their experiences, so that I can get more insight into how good the services are. 
   This will help me decide if I want to sign up with this company.
+- As a potential client  
 - As a potential client, I want to be able to see what services you offer and your credentials, so that I can see whether you offer what I am looking for.
 - As the business owner, I want to add a section with a contact form, so that I can entice clients to contact us. This will lead to more potential sales, as a result more revenue.
 - As the business owner, I want to provide key information about our company in terms of history and reviews, so that I can show any potential client that we are a reputable business, with proven results.
@@ -59,10 +60,14 @@ able to see videos of them training clients and a short clip where they introduc
 addition of a nutrition section. Where we can promote programs that include diets and foods to eat etc.
 - In future, the addition of a log in section for our members would be great.
 - Possibly expand the site to have multiple pages, as opposed to just one page.
+- When the contact form has been submitted, for a message to appear that states it has been sent succesfully. And that we will contact them back within a time frame.
 
 ## Technologies Used
 Here is a list of all of the languages, frameworks, libraries, and any other tools that I have used to construct my project. 
 
+1. <a href="https://github.com/" target="_blank">Git Hub</a>: Used to create the repository and where you push your code to.
+
+1. <a href="https://www.gitpod.io/" target="_blank">Git Pod</a>: Used to write the code and style and where you push your code to Github.
 
 1. HTML and CSS: For these two I could not find the official websites, which is why I have not provided a link. I used HTML for the structure of the page and CSS to style the page.
 
@@ -83,23 +88,50 @@ Used this in conjunction with the Cdnjs to pick the right hover effect for my pr
 This technically did not help me create the project, however I used this wesbite to format both my HTML and CSS code. This will make it easier for anyone reading my code in the future.
 
 1. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>:
-Google Fonts provided the font for my website.
+Google Fonts provided the font for my website. I used Cairo, with different font weights.
 
-1. <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>:
-The project uses font awesome icons on the footer, for the social media links.
+1. <a href="https://balsamiq.com/" target="_blank">Balmasiq</a>: Used to create my initial wireframes at the start of the project.
+
+1. 
+
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have only conducted manual tests, having spoken to Tutor support, automated testing is not required for this milestone project. For each of the below tests, I have tested using **Chrome developer tools**, tested all
+screen sizes available and different devices by clicking **Inspect** elements. Including the following below;
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+1. Moto G4
+1. Galaxy S5
+1. Pixel 2
+1. Pixel 2 XL
+1. iPhone 5/SE
+1. iPhone 6/7/8
+1. iPhone X
+1. iPad
+1. iPad Pro
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Hover effects
+ If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+### Navigation Bar:
+
+- If you click on ElitePT, this will essentially take you to the landing page and refresh the website. 
+- When you click on each of the other sections; Program, Trainers, Testimonials and Contact Us. It will redirect you to the relevant section on the page.
+
+### Contact Form:
+
+- I tried to submit the empty form and you get a message telling you to enter your first name first.
+- If you then attempt to submit with only first name entered, you will get an error message telling you to enter your surname.
+- If the email section is left empty or entered incorrectly (without an @), an error message appears telling you to enter it correctly.
+- Lastly, if you attempt to leave the message section empty and submit, you will get the relevant error message. The message states 'Please fill in this field'.
+- If everything is entered correctly, the page will reload to suggest it has been submitted succesfully.
+
+### Footer Page:
+ - By clicking on any of the social media icons, it will redirect you to the relevant page on a separate tab. This is because I have added the 'target_blank' to all links.
+
+
+
+
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -136,7 +168,9 @@ To deploy my project, I took the following steps.
 In regards to my project, I have used code from a few different sources and modified it to make it suitable to my own project. I will list the sites I used below:
 I have also left a comment on my html and css, on top of sections which had code from other sources. The comments highlight the source of the code.
 
-I will list the credits below too:
+### Code Credits
+
+I will list the code credits below too:
 
 #### Navigation Bar
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
@@ -151,7 +185,8 @@ I will list the credits below too:
 #### Contact Page
 - <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
 
-### Content 
+
+### Text Content 
 
 
 
@@ -175,3 +210,4 @@ I got the idea of showing the personal trainers and their accreditation from thi
 - <a href="https://www.villagegym.co.uk/" target="_blank">Village Gym</a>:
 I really liked their colour scheme, especially the contact page and footer. 
 
+Additionally, I have recieved great support from my mentor Rohit, the Tutot team at Code Institute and fellow coders on Slack.

@@ -268,3 +268,11 @@ h6 {
     background-color: #F49C01;
     border-color: #F49C01;
 }
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #F49C01;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #F49C01;
+}
