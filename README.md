@@ -8,14 +8,16 @@ personal trainers who all specialise in one particular field.
 As previously mentioned, this website's target market is anyone interested in fitness, from aspiring athletes to someone completely new to the gym.
 
 
-
 ## UX
- 
-I aim to do this by creating a website which is both easy to navigate and user friendly. The site will have a minimalistic feel, in the sense that I won't bombard potential clients with too much information.
+ I aim to do this by creating a website which is both easy to navigate and user friendly. The site will have a minimalistic feel, in the sense that I won't bombard potential clients with too much information.
 I aim to provide just the key information needed for potential clients, from services we provide, to testimonials for them to read. And most importantly, a section where they can provide more details, in regards to their goals and previous experience with fitness.
 
 The site will feature different personal trainers, with different skill sets.
 This will provide variety, which will ultimately lead to more clients and thus higher revenue.
+
+### Colour and Typography
+In regards to the design, I opted for a simple colour scheme. The main colours are black, white and a specific shade of orange. Additionally on the hover effect there is a shade of yellow for the contact page.
+For the typography, I opted to use Cairo and sans serif as a substitute if Cairo did not work.
 
 ### User Stories
 split into features
@@ -34,11 +36,9 @@ why they are different to my website, which I have modified over time.
 
 
 ## Features
-
 On my website, there are a total of 6 features. Below I will discuss each briefly, and state it's purpose. 
 
 ### Existing Features
-
 1. Navigation bar: This allows user to easily navigate the page and get to whichever section they want. To do this, they simplify
    click on the relevant section on the navigation bar.
 1. Programs: This allows potential clients to see what services we offer, which will help them decide which one to pick. By offering these, 
@@ -51,7 +51,6 @@ On my website, there are a total of 6 features. Below I will discuss each briefl
 
 
 ### Future Features
-
 In future I would make a few additions. 
 
 - I would have a drop down section where you can click on each personal trainer, from there you would be 
@@ -65,7 +64,7 @@ addition of a nutrition section. Where we can promote programs that include diet
 ## Technologies Used
 Here is a list of all of the languages, frameworks, libraries, and any other tools that I have used to construct my project. 
 
-1. <a href="https://github.com/" target="_blank">Git Hub</a>: Used to create the repository and where you push your code to.
+1. <a href="https://github.com/" target="_blank">Git Hub</a>: Used to create the repository and where you push your code to. Used for deployment and version control.
 
 1. <a href="https://www.gitpod.io/" target="_blank">Git Pod</a>: Used to write the code and style and where you push your code to Github.
 
@@ -92,7 +91,7 @@ Google Fonts provided the font for my website. I used Cairo, with different font
 
 1. <a href="https://balsamiq.com/" target="_blank">Balmasiq</a>: Used to create my initial wireframes at the start of the project.
 
-1. 
+
 
 
 ## Testing
@@ -109,15 +108,15 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 1. iPad
 1. iPad Pro
 
-### Hover effects
+#### Hover effects
  If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
 
-### Navigation Bar:
+#### Navigation Bar:
 
 - If you click on ElitePT, this will essentially take you to the landing page and refresh the website. 
 - When you click on each of the other sections; Program, Trainers, Testimonials and Contact Us. It will redirect you to the relevant section on the page.
 
-### Contact Form:
+#### Contact Form:
 
 - I tried to submit the empty form and you get a message telling you to enter your first name first.
 - If you then attempt to submit with only first name entered, you will get an error message telling you to enter your surname.
@@ -125,14 +124,32 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 - Lastly, if you attempt to leave the message section empty and submit, you will get the relevant error message. The message states 'Please fill in this field'.
 - If everything is entered correctly, the page will reload to suggest it has been submitted succesfully.
 
-### Footer Page:
+#### Footer Page:
  - By clicking on any of the social media icons, it will redirect you to the relevant page on a separate tab. This is because I have added the 'target_blank' to all links.
 
 
+### Different Screen Sizes
+One of the reasons I decided to use Bootstrap to create this project, was the mobile-first principle and especially the responsiveness. Using the layout meant that, as the screen size 
+increases and decreases, the page responds accordingly. Below is the effects of changing the screen size;
 
+1. Navigation Bar
+- The navigation will collapse down to a dropdown menu when the screen is ≥576px.
 
+2. Programs and Trainers
+- The images and the adjoined text will be viewed differently depending on the screen size. So on screen sizes of 992px and above, all four images will be on one row.
+For screens where it is between 576px and below, one image will occupy one row. For screen sizes between 568px and 991px, it will show two images per row.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+3. Testimonials
+- For this section, the testimonials will be one per row for screen sizes 767 and below. For screens 768px and above it will show two testimonials on each row.
+
+4. Contact Page
+- Lastly, for the contact page, on screens 768px and above the contact form and the relevant text will be side by side (col-6 and col-6). But on smaller devices (767px and below) it will show the 
+relevant text above the contact form. As for the social media icons, on all screens sizes above 368px, the icons will appear on one line. But for screens widths 368px and below, the last icon goes on a separate row. 
+
+### Issues
+- For the collapsed dropdown menu, when you click on an option, the drop down menu section does not go back to it's original state automatically. You have to click on
+the hamburger icon again for it collapse back.
+- When I click on the relevant feature, ideally I would want to be redirected to the header of the feature. However, on mine it takes you to the text on that section.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -162,7 +179,6 @@ To deploy my project, I took the following steps.
 1. Now you should see your project on your desktop.
 
 
-
 ## Credits
 
 In regards to my project, I have used code from a few different sources and modified it to make it suitable to my own project. I will list the sites I used below:
@@ -172,25 +188,27 @@ I have also left a comment on my html and css, on top of sections which had code
 
 I will list the code credits below too:
 
-#### Navigation Bar
+1. Navigation Bar
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-#### Landing Page
+2. Landing Page
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
 - <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-#### Programs and Trainers
+3.  Programs and Trainers
 - <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
-#### Testimonials
+4. Testimonials
 - <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap</a>: Used code for the purposes of the layout.
-#### Contact Page
+5. Contact Page
 - <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
 
 
 ### Text Content 
 
+I have used content 
 
 
 ### Media
+
 The photos used in this site were obtained from the following sources. All photos are copyright free, and the links to the official websites can be found below.
 
 - <a href="https://pixabay.com/" target="_blank">Pixabay</a>
@@ -199,6 +217,7 @@ The photos used in this site were obtained from the following sources. All photo
 
 
 ### Acknowledgements
+
 I received inspiration for this project from looking at a few different websites, which I have listed below:
 
 - <a href="https://www.opexgatwick.co.uk/" target="_blank">Open Gatwick Gym</a>:
