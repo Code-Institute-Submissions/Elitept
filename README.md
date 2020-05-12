@@ -113,11 +113,13 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 1. iPad
 1. iPad Pro
 
-The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**. The site has also been tested on Chrome, Safari, Mozilla Firefox and Opera, and functions correctly on each.
+The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**. The site has also been tested on **Chrome, Safari, Mozilla Firefox and Opera**, and functions correctly on each.
+
+The only visible difference seems to be when hosting on **Opera**, where the page height seems to be different. This is visible on the contact page, where there is not as large a margin-bottom on the footer.
 
 Additionally, having used <a href="https://validator.w3.org/" target="_blank">WC3</a>, my HTML code showed up as having no errors. Plus when I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">WC3 (CSS)</a>, it also showed that I had no errors in my CSS code.
 
-#### Hover effects
+#### Hover effects:
  If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
 
 #### Navigation Bar:
