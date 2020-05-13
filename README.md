@@ -37,7 +37,7 @@ For the typography, I opted to use Cairo and sans serif as a substitute if Cairo
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
-Here is the link to my origial <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
+Here is the link to my original <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
 created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
 why they are different to my website, which I have modified over time.
 
@@ -113,7 +113,14 @@ screen sizes available and different devices by clicking **Inspect** elements. I
 1. iPad
 1. iPad Pro
 
-The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**. The site has also been tested on **Chrome, Safari, Mozilla Firefox and Opera**, and functions correctly on each.
+The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**.
+
+The site has also been tested on the following browsers;
+
+- Chrome 
+- Safari,
+- Mozilla Firefox 
+- Opera 
 
 The only visible difference seems to be when hosting on **Opera**, where the page height seems to be different. This is visible on the contact page, where there is not as large a margin-bottom on the footer.
 
@@ -170,7 +177,8 @@ relevant text above the contact form. As for the social media icons, on all scre
 the hamburger icon again for it collapse back.
 - If I try to push the navigation bar more centrally, the options on the drop down menu seem to be pushed out of the menu section. Which is why I have left it as originally from the bootstrap page.
 - When I click on the relevant feature, ideally I would want to be redirected to the header of the feature. However, on mine it takes you to the text on that section.
-- When you submit the contact form correctly, you don't get a message saying it was sent or anything. I have added this to future features I would like to add.
+- When you submit the contact form correctly, the URL changes and the page reloads. Having spoke to my mentor, I have been made aware that this can be fixed through the use of Javascript. However seeing 
+as that is outside the scope of this project, I have added this to future features I would like to add.
 
 
 ## Deployment
