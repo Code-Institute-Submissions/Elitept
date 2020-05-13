@@ -7,7 +7,7 @@ personal trainers who all specialise in certain fields.
 
 As previously mentioned, this website's target market is anyone interested in fitness, from aspiring athletes to someone completely new to the gym.
 
-Click on this link to view the live site. <a href="https://ladev25.github.io/" target="_blank">Visit ElitePT</a>
+Click on this link to view the live site. [Visit ElitePT](https://ladev25.github.io/Elitept/)
 
 ## UX
  I aim to do this by creating a website which is both easy to navigate and user friendly. The site will have a minimalistic feel, in the sense that I won't bombard potential clients with too much information.
@@ -38,8 +38,7 @@ For the typography, I opted to use Cairo and sans serif as a substitute if Cairo
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
 
 ### Wireframes
-Here is the link to my original <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
-created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
+Here is the link to my original [Wireframes](https://github.com/Ladev25/Elitept/blob/master/wireframes/MS1.pdf). I have created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
 why they may be slighlty different to my website, which I have modified over time.
 
 
@@ -72,32 +71,35 @@ addition of a nutrition section. Where we can promote programs that include diet
 ## Technologies Used
 Here is a list of all of the languages, frameworks, libraries, and any other tools that I have used to construct my project. 
 
-1. <a href="https://github.com/" target="_blank">Git Hub</a>: Used to create the repository and where you push your code to. Used for deployment and version control.
+1. [GitHub](https://github.com/): 
+Used to create the repository and where you push your code to. Used for deployment and version control.
 
-1. <a href="https://www.gitpod.io/" target="_blank">Git Pod</a>: Used to write the code and style and where you push your code to Github.
+1. [Gitpod](https://www.gitpod.io/): 
+Used to write the code and style and where you push your code to Github.
 
 1. HTML and CSS: For these two I could not find the official websites, which is why I have not provided a link. I used HTML for the structure of the page and CSS to style the page.
 
-1. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap Javascript</a>:
+1. [Bootstrap Javascript](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
 The project uses Bootstrap JS scripts to be able to use the dropdown menu on the navigation bar. The drop down menu is active on the smaller screens.
 
-1. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>:
+1. [Bootstrap](https://getbootstrap.com/):
 I used Bootstrap to code most of the website. Firsty, to structure the layout of the page, by using the container, rows and columns feature.
 Secondly, for the responsive navigation bar, and the collapse to a dropdown menu. Thirdly, for the images to be placed in cards, as can be seen on the trainers feature, and lastly for the forms.
 
-1. <a href="https://cdnjs.com/" target="_blank">Cdnjs</a>:
+1. [Cdnjs](https://cdnjs.com/):
 Cdnjs provided the library for the hover over effects on the navigation bar.
 
-1. <a href="https://ianlunn.github.io/Hover/" target="_blank"> Ian Lunn's Hover site</a>:
+1. [Ian Lunn's Hover site](https://ianlunn.github.io/Hover/):
 Used this in conjunction with the Cdnjs to pick the right hover effect for my project.
 
-1. <a href="https://www.freeformatter.com/" target="_blank">FreeFormatter</a>:
+1. [FreeFormatter](https://www.freeformatter.com/):
 This technically did not help me create the project, however I used this website to format both my HTML and CSS code. This will make it easier for anyone reading my code in the future.
 
-1. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>:
+1. [Google Fonts](https://fonts.google.com/):
 Google Fonts provided the font for my website. I used Cairo, with different font weights.
 
-1. <a href="https://balsamiq.com/" target="_blank">Balsamiq</a>: Used to create my initial wireframes at the start of the project.
+1. [Balsamiq](https://balsamiq.com/): 
+Used to create my initial wireframes at the start of the project.
 
 
 ## Testing
@@ -125,7 +127,7 @@ The site has also been tested on the following browsers;
 
 The only visible difference seems to be when hosting on **Opera**, where the page height seems to be different. This is visible on the contact page, where there is not as large a margin-bottom on the footer.
 
-Additionally, having used <a href="https://validator.w3.org/" target="_blank">WC3</a>, my HTML code showed up as having no errors. Plus when I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">WC3 (CSS)</a>, it also showed that I had no errors in my CSS code.
+Additionally, having used [WC3](https://validator.w3.org/), my HTML code showed up as having no errors. Plus when I used [WC3 (CSS)](https://jigsaw.w3.org/css-validator/), it also showed that I had no errors in my CSS code.
 
 #### Hover effects:
  If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
@@ -216,39 +218,38 @@ I have also left a comments on my HTML and CSS, on top of sections which had cod
 I will list the code credits below:
 
 #### Navigation Bar
-- <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
-- <a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
+- [Code Institute](https://codeinstitute.net/): My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
+- [Bootstrap Navbar](https://getbootstrap.com/docs/4.4/components/navbar/): The actual code can be found on the Bootstrap page.
 #### Landing Page
-- <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
-- <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap Jumbotron</a>: The actual code can be found on the Bootstrap page link I have provided.
+- [Code Institute](https://codeinstitute.net/): My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
+- [Bootstrap Jumbotron](https://getbootstrap.com/docs/4.4/components/jumbotron/): The actual code can be found on the Bootstrap page link I have provided.
 ####  Programs and Trainers
-- <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap Cards</a>: The actual code can be found on the Bootstrap page.
+- [Bootstrap Cards](https://getbootstrap.com/docs/4.4/components/card/): The actual code can be found on the Bootstrap page.
 #### Testimonials
-- <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap Layouts</a>: Used code for the purposes of the layout.
+- [Bootstrap Layouts](https://getbootstrap.com/docs/4.4/layout/overview/): Used code for the purposes of the layout.
 #### Contact Page
-- <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap Forms</a>: Used code for the purposes of using the contact form.
+- [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/): Used code for the purposes of using the contact form.
 
 
 ### Media
 
 The photos used in this site were obtained from the following sources. All photos are copyright free, and the links to the official websites can be found below.
 
-- <a href="https://pixabay.com/" target="_blank">Pixabay</a>
-- <a href="https://www.pexels.com/" target="_blank">Pexels</a>
-- <a href="https://www.shutterstock.com/home" target="_blank">Shutterstock</a>
+- [Pixabay](https://pixabay.com/)
+- [Pexels](https://www.pexels.com/)
+- [Shutterstock](https://www.shutterstock.com/home)
 
 
 ### Acknowledgements
 
-I received inspiration for this project from looking at a few different websites, which I have listed below:
+I received inspiration for this project from looking at a few different websites, which I have listed below (**I did not use code from the following websites**):
 
-- <a href="https://www.opexgatwick.co.uk/" target="_blank">Open Gatwick Gym</a>:
-I really liked the structure of the page, even though I did not use any of the code.
-
-- <a href="https://www.puregym.com/" target="_blank">Pure Gym</a>:
+- [Open Gatwick Gym](https://www.opexgatwick.co.uk/):
+I really liked the structure of the page.
+- [Pure Gym](https://www.puregym.com/):
 I got the idea of showing the personal trainers and their accreditation from this website.
 
-- <a href="https://www.villagegym.co.uk/" target="_blank">Village Gym</a>:
+- [Village Gym](https://www.villagegym.co.uk/):
 I really liked their colour scheme, especially the contact page and footer. 
 
 Additionally, I have recieved great support from my mentor Rohit, the Tutot team at Code Institute and fellow coders on Slack.
