@@ -158,6 +158,14 @@ For screens where it is between 576px and below, one image will occupy one row. 
 relevant text above the contact form. As for the social media icons, on all screens sizes above 368px, the icons will appear on one line. But for screens widths 368px and below, the last icon goes on a separate row. 
 
 ### Issues
+
+#### Issues Fixed
+- When running my code through a validator, one of the errors I received was, my comments had too many hyphens. I have no corrected this, and placed two hyphens on either side of my comment.
+- When loading my page, some images would take much longer to load then others. I quickly realised the photos were too large, so I resized them proportionately using **adjust size** under tools on Mac.
+- In regards to my contact form, when I left the Full name field empty, I would not get an error message. I fixed this by going onto Bootstrap and adding the relevant invalidator code to my contact form.
+
+
+#### Issues Pending
 - For the collapsed dropdown menu, when you click on an option, the drop down menu section does not go back to it's original state automatically. You have to click on
 the hamburger icon again for it collapse back.
 - If I try to push the navigation bar more centrally, the options on the drop down menu seem to be pushed out of the menu section. Which is why I have left it as originally from the bootstrap page.
@@ -168,7 +176,7 @@ the hamburger icon again for it collapse back.
 ## Deployment
 To deploy my project, I took the following steps.
 
-### How to deploy
+### Deploying via Github (Available to repository owner only)
 
 1. To publish the project go on to the **Github Pages**.
 1. The go on to the **repository** in Github and select the **settings** tab.
@@ -178,7 +186,7 @@ To deploy my project, I took the following steps.
 1. Should take no longer than a minute on average.
 1. However, if after 10 minutes, the link doesn't work, try to repeat the process again (selecting **none** for source, then selecting **master branch**).
 
-### Alternative
+### Running Locally (Available to anyone)
 
 1. Go to the **GitHub pages**.
 1. Go to the relevant **repository**.
