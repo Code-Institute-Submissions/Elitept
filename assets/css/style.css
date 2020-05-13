@@ -141,7 +141,7 @@
 /*--Break--*/
 
 .landing-pagetwo {
-	background: url("../images/landing.jpg") no-repeat bottom right fixed;
+	background: url("../images/divide2.jpg") no-repeat bottom right fixed;
 }
 
 .break-headertwo {
@@ -152,7 +152,7 @@
 }
 
 .landing-pagethree {
-	background: url("../images/landing2.jpg") no-repeat bottom right fixed;
+	background: url("../images/divide1.jpg") no-repeat bottom right fixed;
 }
 
 
@@ -262,6 +262,13 @@ h6 {
     color: #000;
     background-color: #F49C01;
     border-color: #F49C01;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #F49C01;
+    border-color: #F49C01;
+    box-shadow: 0 0 0 0.2rem #F49C01;
 }
 
 .form-control:focus {

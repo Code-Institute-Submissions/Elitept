@@ -3,7 +3,7 @@
 The main aim of my project is a very simple and concise one; to create a site where anyone on **any stage** of their fitness
 journey, can find a personal trainer for **them**. I gained inspiration for this project from personal experience, especially my love of fitness.
 I feel there is a need for this project, to be able to go on to a website, and have multiple programs available to you. I feel there are not many websites that have 
-personal trainers who all specialise in one particular field.
+personal trainers who all specialise in certain fields.
 
 As previously mentioned, this website's target market is anyone interested in fitness, from aspiring athletes to someone completely new to the gym.
 
@@ -23,7 +23,7 @@ For the typography, I opted to use Cairo and sans serif as a substitute if Cairo
 ### User Stories
 
 #### Potential Client
-- As a potential client, I want to be able easily go to a section and read testimonials from other clients which highlight their experiences, so that I can get more insight into how good the services are. 
+- As a potential client, I want to be able to easily go to a section and read testimonials from other clients which highlight their experiences, so that I can get more insight into how good the services are. 
   This will help me decide if I want to sign up with this company.
 - As a potential client, I want to be able to see what programs you offer and the trainers credentials, so that I can see whether you offer what I am looking for.
 - As a potential client, I want to be able to contact you and start consultation, so that I can sign up for training.
@@ -32,6 +32,7 @@ For the typography, I opted to use Cairo and sans serif as a substitute if Cairo
 - As the business owner, I want to add a section with a contact form, so that I can entice clients to contact us. This will lead to more potential sales, as a result more revenue.
 - As the business owner, I want the site to be easy to navigate and user friendly, this will lead to potential clients having a good user experience.
 - As the business owner, I want to provide key information about our company in terms of history and reviews (testimonials), so that I can show any potential client that we are a reputable business, with proven results.
+- As the business owner, I want our social media links to be clear at the bottom of the page, this will lead to more activity on our pages, which is great for the business.
 
 #### An ElitePT trainer
 - As one of the 'Elite Personal Trainers', I want to have my accreditation shown on the website, so that I can get more people to hire me.
@@ -39,7 +40,7 @@ For the typography, I opted to use Cairo and sans serif as a substitute if Cairo
 ### Wireframes
 Here is the link to my original <a href="https://github.com/Ladev25/Ladev25.github.io/blob/master/wireframes/MS1.pdf" target="_blank">Wireframes</a>. I have
 created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
-why they are different to my website, which I have modified over time.
+why they may be slighlty different to my website, which I have modified over time.
 
 
 ## Features
@@ -91,7 +92,7 @@ Cdnjs provided the library for the hover over effects on the navigation bar.
 Used this in conjunction with the Cdnjs to pick the right hover effect for my project.
 
 1. <a href="https://www.freeformatter.com/" target="_blank">FreeFormatter</a>:
-This technically did not help me create the project, however I used this wesbite to format both my HTML and CSS code. This will make it easier for anyone reading my code in the future.
+This technically did not help me create the project, however I used this website to format both my HTML and CSS code. This will make it easier for anyone reading my code in the future.
 
 1. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>:
 Google Fonts provided the font for my website. I used Cairo, with different font weights.
@@ -118,7 +119,7 @@ The site functions correctly on all formats, I have tested this on multiple devi
 The site has also been tested on the following browsers;
 
 - Chrome 
-- Safari,
+- Safari
 - Mozilla Firefox 
 - Opera 
 
@@ -148,26 +149,26 @@ Additionally, having used <a href="https://validator.w3.org/" target="_blank">WC
 
 ### Different Screen Sizes
 One of the reasons I decided to use Bootstrap to create this project, was the mobile-first principle and especially the responsiveness. Using the layout meant that, as the screen size 
-increases and decreases, the page responds accordingly. Below is the effects of changing the screen size;
+increases and decreases, the page responds accordingly. Below is the effects of changing the screen size (**in regards to screen width**);
 
 #### Navigation Bar
-- The navigation will collapse down to a dropdown menu when the screen is ≥576px.
+- The navigation will collapse down to a dropdown menu when the screen is 575px and below.
 
 #### Programs and Trainers
-- The images and the adjoined text will be viewed differently depending on the screen size. So on screen sizes of 992px and above, all four images will be on one row.
+- The images and the adjoined text will be viewed differently depending on the screen size. So on a screen size of 992px and above, all four images will be aligned (on one line).
 For screens where it is between 576px and below, one image will occupy one row. For screen sizes between 568px and 991px, it will show two images per row.
 
 #### Testimonials
-- For this section, the testimonials will be one per row for screen sizes 767 and below. For screens 768px and above it will show two testimonials on each row.
+- For this section, the testimonials will be one testimonial per row for screen sizes 767px and below. For screens that are 768px and above it will show two testimonials on each row.
 
 #### Contact Page
 - Lastly, for the contact page, on screens 768px and above the contact form and the relevant text will be side by side (col-6 and col-6). But on smaller devices (767px and below) it will show the 
-relevant text above the contact form. As for the social media icons, on all screens sizes above 368px, the icons will appear on one line. But for screens widths 368px and below, the last icon goes on a separate row. 
+relevant text above the contact form. As for the social media icons, on all screens sizes above 368px, the icons will appear on one line. But for screens 368px and below, the last icon goes on a separate row. 
 
-### Issues
+## Issues
 
 #### Issues Fixed
-- When running my code through a validator, one of the errors I received was, my comments had too many hyphens. I have no corrected this, and placed two hyphens on either side of my comment.
+- When running my code through a validator, one of the errors I received was, my comments had too many hyphens. I have now corrected this, and placed only two hyphens on either side of my comment.
 - When loading my page, some images would take much longer to load then others. I quickly realised the photos were too large, so I resized them proportionately using **adjust size** under tools on Mac.
 - In regards to my contact form, when I left the Full name field empty, I would not get an error message. I fixed this by going onto Bootstrap and adding the relevant invalidator code to my contact form.
 
@@ -176,7 +177,7 @@ relevant text above the contact form. As for the social media icons, on all scre
 - For the collapsed dropdown menu, when you click on an option, the drop down menu section does not go back to it's original state automatically. You have to click on
 the hamburger icon again for it collapse back.
 - If I try to push the navigation bar more centrally, the options on the drop down menu seem to be pushed out of the menu section. Which is why I have left it as originally from the bootstrap page.
-- When I click on the relevant feature, ideally I would want to be redirected to the header of the feature. However, on mine it takes you to the text on that section.
+- When I click on the relevant feature on my navigation bar, ideally I would want to be redirected to the header of that feature. However, on mine it takes you to the text on that section.
 - When you submit the contact form correctly, the URL changes and the page reloads. Having spoke to my mentor, I have been made aware that this can be fixed through the use of Javascript. However seeing 
 as that is outside the scope of this project, I have added this to future features I would like to add.
 
@@ -202,13 +203,13 @@ To deploy my project, I took the following steps.
 1. Then **Download Zip**.
 1. Once downloaded, if you click on it, you will be taken to the **downloaded folder**.
 1. When you open the folder, you will need to open the **index.html**.
-1. Now you should see your project on your desktop.
+1. Now you should see the project site on your desktop.
 
 
 ## Credits
 
 In regards to my project, I have used code from a few different sources and modified it to make it suitable to my own project. I will list the sites I used below:
-I have also left a comment on my html and css, on top of sections which had code from other sources. The comments highlight the source of the code.
+I have also left a comments on my HTML and CSS, on top of sections which had code from other sources. The comments highlight the source of the code.
 
 ### Code Credits
 
@@ -219,13 +220,13 @@ I will list the code credits below:
 - <a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
 #### Landing Page
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>: My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
-- <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
+- <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Bootstrap Jumbotron</a>: The actual code can be found on the Bootstrap page link I have provided.
 ####  Programs and Trainers
-- <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap</a>: The actual code can be found on the Bootstrap page.
+- <a href="https://getbootstrap.com/docs/4.4/components/card/" target="_blank">Bootstrap Cards</a>: The actual code can be found on the Bootstrap page.
 #### Testimonials
-- <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap</a>: Used code for the purposes of the layout.
+- <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Bootstrap Layouts</a>: Used code for the purposes of the layout.
 #### Contact Page
-- <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap</a>: Used code for the purposes of using the contact form.
+- <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">Bootstrap Forms</a>: Used code for the purposes of using the contact form.
 
 
 ### Media
